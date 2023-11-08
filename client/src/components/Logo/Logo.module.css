@@ -1,0 +1,38 @@
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.logo {
+  width: 55px;
+  height: 55px;
+}
+.logoname {
+  margin-left: 8px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2e0052;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .top {
+    justify-content: left;
+    width: 100vw;
+    background-color: #2e0052;
+    margin-top: 0px;
+  }
+  .logo {
+    width: 35px;
+    height: 35px;
+    margin: 10px 0px 10px 20px;
+  }
+  .logoname {
+    font-size: 22px;
+    color: white;
+  }
+}

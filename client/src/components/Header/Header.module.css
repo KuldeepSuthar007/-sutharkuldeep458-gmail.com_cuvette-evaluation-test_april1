@@ -1,0 +1,48 @@
+.header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  background-color: #2e0052;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
+.top p {
+  margin-left: 10px;
+}
+p {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.login_btn,
+.sign_btn,
+.logout_btn {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  background-color: #2e0052;
+  border: none;
+  cursor: pointer;
+  margin: 0px 8px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header {
+    display: none;
+  }
+}
